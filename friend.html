@@ -1,0 +1,183 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>朋友</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/style_friend.css">
+</head>
+
+<body style="overflow-y : visible;">
+
+<div class="newrow" id="_centent">
+<header>
+    <div class="top-name"><p>朋友</p></div>
+</header>
+
+<div class='search'>
+  <input placeholder='Search...' type='text'>
+  </input>
+</div>
+
+<div class="lt-char">
+    <a>C</a>
+</div>
+<section class="mt-4"> 
+    <div class="ps-lt">
+        <div class="lt-dsb1 cl-bb">
+            <p>春野樱</p>
+            </a><img src="img/friend/friend_Ying.png">
+        </div>
+    </div>
+</section>
+<div class="lt-char">
+    <a>D</a>
+</div>
+<section class="mt-4"> 
+    <div class="ps-lt">
+        <div class="lt-dsb1 cl-bb">
+            <p>大蛇丸</p>
+            <img src="img/friend/friend_DSWan.png">
+        </div>
+    </div>
+</section>
+<div class="lt-char">
+    <a>Q</a>
+</div>
+<section class="mt-4"> 
+    <div class="ps-lt">
+        <div class="lt-dsb1">
+            <p>千手柱间</p>
+            <img src="img/friend/friend_ZJian.png">
+        </div>
+    </div>
+    <div class="ps-lt">
+        <div class="lt-dsb1">
+            <p>千手扉间</p>
+            <img src="img/friend/friend_FJian.png">
+        </div>
+    </div>
+    <div class="ps-lt">
+        <div class="lt-dsb1 cl-bb">
+            <p>旗木卡卡西</p>
+            <img src="img/friend/friend_KKXi.png">
+        </div>
+    </div>
+</section>
+<div class="lt-char">
+    <a>R</a>
+</div>
+<section class="mt-4"> 
+    <div class="ps-lt">
+        <div class="lt-dsb1">
+            <p>日向雏田</p>
+            <img src="img/friend/friend_CTian.png">
+        </div>
+    </div>
+    <div class="ps-lt">
+        <div class="lt-dsb1 cl-bb">
+            <p>日向宁次</p>
+            <img src="img/friend/friend_NCi.png">
+        </div>
+    </div>
+</section>
+<div class="lt-char">
+    <a>X</a>
+</div>
+<section class="mt-4"> 
+    <div class="ps-lt">
+        <div class="lt-dsb1 cl-bb">
+            <p>漩涡鸣人</p>
+            <img src="img/friend/friend_MRen.png">
+        </div>
+    </div>
+</section>
+<div class="lt-char">
+    <a>W</a>
+</div>
+<section class="mt-4"> 
+    <div class="ps-lt">
+        <div class="lt-dsb1 cl-bb">
+            <p>我爱罗</p>
+            <img src="img/friend/friend_WALuo.png">
+        </div>
+    </div>
+</section>
+<div class="lt-char">
+    <a>Y</a>
+</div>
+<section class="mt-4"> 
+    <div class="ps-lt">
+        <div class="lt-dsb1 cl-bb">
+            <p>猿飞日斩</p>
+            <img src="img/friend/friend_RZhan.png">
+        </div>
+    </div>
+</section>
+<div class="lt-char">
+    <a>Z</a>
+</div>
+<section class="mt-4"> 
+    <div class="ps-lt">
+        <div class="lt-dsb1 cl-bb">
+            <p>宇智波佐助</p>
+            <img src="img/friend/friend_ZZhu.png">
+        </div>
+    </div>
+</section>
+
+<div class="jg"></div>
+</div>
+<footer>
+    <div class="mune">
+        <a href="share.html">
+            <i class="mune-1"></i>
+            <p>分享圈</p>
+        </a>
+    </div>
+    <div class="mune">
+        <a href="find.html">
+            <i class="mune-2"></i>
+            <p>发现</p>
+        </a>
+    </div>
+    <div class="mune">
+        <a href="friend.html">
+            <i class="mune-3"></i>
+            <p>好友</p>
+        </a>
+    </div>
+    <div class="mune">
+        <a href="person.html">
+           <i class="mune-4"></i>
+            <p>我</p>
+        </a>
+    </div>    
+</footer>
+
+<script>
+	(function (doc, win) {
+	  var docEl = doc.documentElement,
+		resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		recalc = function () {
+		  var clientWidth = docEl.clientWidth;
+		  if (!clientWidth) return;
+		  docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+		};
+
+	  if (!doc.addEventListener) return;
+	  win.addEventListener(resizeEvt, recalc, false);
+	  doc.addEventListener('DOMContentLoaded', recalc, false);
+	})(document, window);
+</script>
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+	$('.check-on').click(function(){
+		$(this).toggleClass('check-off');
+		})
+</script>
+</body>
+</html>
