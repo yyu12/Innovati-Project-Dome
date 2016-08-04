@@ -1,0 +1,20 @@
+.nav{ width:7.5rem; height:0.72rem; margin-top:0.46rem; background-color:#fff;}
+.nav ul li{ position:relative; float:left; width:2.48rem; height:0.55rem; font-size:0.3rem; margin-top:0.085rem; line-height:0.55rem; text-align:center;}
+.nav ul li p{ position:absolute; left:1.2rem; width:0.7rem;}
+.pt-line{ border-left:1px solid #dddddd; border-right:1px solid #dddddd; }
+.idt{ display:block; position:absolute; top:0.11rem; left:0.68rem; float:left; width:0.28rem; height:0.36rem; background:url(../img/indent.png) no-repeat; background-size:0.28rem 0.36rem;}
+.clt{ display:block; position:absolute; top:0.11rem; left:0.68rem; float:left; width:0.39rem; height:0.35rem; background:url(../img/clt.png) no-repeat; background-size:0.39rem 0.35rem;}
+.rcm{ display:block; position:absolute; top:0.11rem; left:0.68rem; float:left; width:0.37rem; height:0.35rem; background:url(../img/rcm.png) no-repeat; background-size:0.37rem 0.35rem;}
+
+.ps-lt{ width:7.5rem; height:100%; background-color:#fff;}
+.lt-dsb{ position:relative; height:0.80rem; line-height:0.76rem; margin-left:0.15rem; border-bottom:1px solid #e5e5e5;}
+.lt-dsb p{ margin-left:0.2rem; font-size:0.35rem; color:#838383;}
+
+.cl-bb{ border:none;}
+.check-on{ display:block; position:absolute; top:0.11rem; right:0.25rem; width:0.85rem; height:0.58rem; background:url(../img/on.png) no-repeat; background-size:0.85rem 0.58rem;}
+.check-off{ display:block; position:absolute; top:0.11rem; right:0.25rem; width:0.85rem; height:0.58rem; background:url(../img/off.png) no-repeat; background-size:0.85rem 0.58rem;}
+.arr-right{ display:block; position:absolute; top:0.21rem; right:0.25rem; width:0.14rem; height:0.24rem; background:url(../img/arr-right.png) no-repeat; background-size:0.14rem 0.24rem;}
+
+.mt-1{ margin-top:0.23rem;}
+.mt-2{ margin-top:0.38rem;}
+.mt-3{ margin-top:0.29rem;}

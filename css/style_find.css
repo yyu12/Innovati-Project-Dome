@@ -1,0 +1,13 @@
+.ps-lt{ width:7.5rem; height:100%; background-color:#fff;}
+.lt-dsb{ position:relative; height:0.80rem; line-height:0.76rem; margin-left:0.15rem; border-bottom:1px solid #e5e5e5;}
+.lt-dsb p{ margin-left:0.2rem; font-size:0.35rem; color:#838383;}
+.arr-right{ display:block; position:absolute; top:0.21rem; right:0.25rem; width:0.14rem; height:0.24rem; background:url(../img/arr-right.png) no-repeat; background-size:0.14rem 0.24rem;}
+.arr-left{ display:block; position:absolute; top:0.31rem; left:0.35rem; width:0.64rem; height:0.24rem; background:url(../img/arr-left.png) no-repeat; background-size:0.14rem 0.24rem;}
+
+.cl-bb{ border:none;}
+
+.mt-2{ margin-top:0.58rem;}
+.mt-3{ margin-top:0.49rem;}
+.mt-4{ margin-top:1.50rem;}
+
+.auction img{width: 100%; margin-top: 0.80rem;}

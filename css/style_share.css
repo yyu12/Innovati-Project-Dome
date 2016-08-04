@@ -1,0 +1,25 @@
+.newbox{margin:5px; background:#fff; border-radius:5px; -webkit-border-radius:10px; -moz-border-radius:10px; border:1px solid #ddd; padding:5px;}
+.newrow{ position: relative; margin-top:1.85rem; width:100%; display:block;overflow:auto;}
+.newtitle{ width:100%; background:#dbd3cf; display:block; overflow:hidden;}
+.newtitle li{float:left; width:20%; line-height:35px; font-size:12px; text-align:center;} 
+.newtitle2 li{float:left; width:50%; line-height:40px; font-size:18px; text-align:center;} 
+.newtitle h2{font-size:18px;line-height:40px; padding-left:10px; text-align:left;}
+.curnewbtn{color:#be0000; border-bottom:3px solid #e11c1a;}
+
+.bigbox{position:relative; -webkit-transition:left 600ms ease-out; width:100%; height: 1200px; overflow:hidden; text-align:left;}
+
+.li_list{position:relative; float:left; vertical-align:top; display:block; width:100%; height: 100%}
+
+.pic_list{ position:relative; height:2.5rem; line-height:0.6rem; margin-left:0.1rem; border-bottom:1px solid #e5e5e5; overflow:hidden;}
+.pic_list img{display:block; position:absolute; margin-top:0.4rem; left:0.1rem; width:2.50rem; height:1.60rem;}
+.pic_list p{margin-left:2.90rem;margin-top: 0.2rem; font-size:13px; color:#000;}
+
+.pic_list1{ position:relative; height:4.5rem; line-height:0.6rem; margin-left:0.1rem; border-bottom:1px solid #e5e5e5; overflow:hidden;}
+.pic_list1 img{position:relative; margin-top:0.2rem; left:0.1rem; width:2.00rem; height:2.60rem;}
+.pic_list1 p{margin-left:0.1rem;margin-top: 0.2rem; font-size:13px; color:#000;}
+
+.pic_list2{ position:relative; height:6rem; line-height:0.6rem; margin-left:0.1rem; border-bottom:1px solid #e5e5e5; overflow:hidden;}
+.pic_list2 img{position:absolute; margin-top:0.2rem; left:0.1rem; width:6.60rem; height:4.00rem;}
+.pic_list2 p{margin-left:0.1rem;margin-top: 0.2rem; font-size:13px; color:#000;}
+
+.cl-bb{ border:none;}
