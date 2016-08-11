@@ -1,0 +1,98 @@
+<!DCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>发现</title>
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+<link rel="stylesheet" type="text/css" href="../../css/style_find.css">
+</head>
+
+<body>
+
+<div id="_centent">
+<header>
+	<div class="top-name"><p>意见栏</p><a href="../../find.html"><i class="arr-left"></i></a></div>
+</header>
+
+<form class="white-pink" id="form_wish" method="post" action="http/127.0.0.1/saveData.php">
+    <h1>寻寻觅觅
+        <span>高山流水觅知音,人生能有几回同,</span>
+        <span>红颜易老花易飘,知己难得天自老!</span>
+    </h1>
+    <label>
+        <span>朋友，你是谁 :</span>
+        <input id="name" type="text" name="name" placeholder="" />
+    </label>
+    <label>
+        <span>朋友，你在想什么 :</span>
+        <textarea id="message" name="message" placeholder=""></textarea>
+    </label>
+    <label>
+        <input type="button" class="button" value="Send" id="btnSubmit" onClick="saveData()"/>
+        <div id="showMassege"></div>
+    </label>
+</form>
+<script type="text/javascript">
+    function saveData(){
+        var message = document.getElementById("message").value;
+
+        if(message=="") {
+            document.getElementById("showMassege").innerHTML = '什么都不填，这难道是传说中的测试？';
+            return;
+        }
+        document.getElementById("form_wish").submit();
+
+        document.getElementById("name").value='';
+        document.getElementById("message").value='';
+        document.getElementById("showMassege").innerHTML = '棒棒哒O(∩_∩)O~~';
+    }
+ </script>
+
+<footer>
+    <div class="mune">
+        <a href="../../share.html">
+            <i class="mune-1"></i>
+            <p>分享圈</p>
+        </a>
+    </div>
+    <div class="mune">
+        <a href="../../find.html">
+            <i class="mune-2"></i>
+            <p>发现</p>
+        </a>
+    </div>
+    <div class="mune">
+        <a href="../../friend.html">
+            <i class="mune-3"></i>
+            <p>好友</p>
+        </a>
+    </div>
+    <div class="mune">
+        <a href="../../person.html">
+           <i class="mune-4"></i>
+            <p>我</p>
+        </a>
+    </div>        
+</footer>
+
+<script>
+	(function (doc, win) {
+	  var docEl = doc.documentElement,
+		resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		recalc = function () {
+		  var clientWidth = docEl.clientWidth;
+		  if (!clientWidth) return;
+		  docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+		};
+
+	  if (!doc.addEventListener) return;
+	  win.addEventListener(resizeEvt, recalc, false);
+	  doc.addEventListener('DOMContentLoaded', recalc, false);
+	})(document, window);
+</script>
+<script type="text/javascript" src="../../js/jquery-1.7.1.min.js"></script>
+</body>
+</html>
